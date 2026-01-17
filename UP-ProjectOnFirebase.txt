@@ -1,0 +1,81 @@
+			👇👇Up Project On Firebase and Make Link👇👇
+
+1- go to google and Write firebase ==>>> go to console 
+2- Enter your project Name ===>>> ignore  google Analytics
+3- create project
+4- choose </>  mean web
+5- Register app ==>>> select app nickname ===>>> write any name colse project
+6- select on Register app
+7- click continue to console
+8- and back to project settings == we find ==>>  npm    CDN     Confige
+9- select on CDN
+10- make file called app.js ==>> and put codes that in CDN and put it into app.js without .... <script> tag like this👇👇
+		==========================================================================================================		
+ 		 // Import the functions you need from the SDKs you need
+  		import { initializeApp } from "https://www.gstatic.com/firebasejs/12.8.0/firebase-app.js";
+		 import { getAuth } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-auth.js";
+ 
+ 		 // TODO: Add SDKs for Firebase products that you want to use
+  		// https://firebase.google.com/docs/web/setup#available-libraries
+
+		  // Your web app's Firebase configuration
+  		const firebaseConfig = {
+   		 apiKey: "AIzaSyACbmLLdu3PlhYbsQxe6duN2Cx67DRqDhg",
+   		 authDomain: "mymallfutim.firebaseapp.com",
+   		 projectId: "mymallfutim",
+  		  storageBucket: "mymallfutim.firebasestorage.app",
+   		 messagingSenderId: "606650772271",
+   		 appId: "1:606650772271:web:ca6ea0ae4cbc8063338fda"
+  		};
+
+  		// Initialize Firebase
+ 		 const app = initializeApp(firebaseConfig);
+		const auth = getAuth(app)
+  		console.log(auth)
+		
+	       ==============================================================================================================
+
+
+11- word called==>> "module" put it in html-FILE like this   ===>>> <script src="./app.js" type="module"></script> 
+12- go to Important link ==>>> "https://firebase.google.com/docs/web/setup#available-libraries" 👇👇
+					A- and go to ==>> Authentication for Web
+					B- and take this code ==>> import { getAuth } from "firebase/auth"; put it in app.js above
+					C- down in app.js down initializeApp we put  const auth = getAuth(app) && console.log(auth)
+13- go to Another Important Link ==>> "https://firebase.google.com/docs/web/learn-more#libraries-cdn"
+					A- take in down Authenticatio there are like take it and put it replace "firebase/auth" in app.js above
+					    import { getAuth } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-auth.js";
+14- go to Hosing and follow Instructions
+       A- get started
+    B- npm install -g firebase-tools ==>> and than  NEXT
+    C- firebase login
+    D- firebase init ==== and than y ..... that mean yes
+    E- choose Hosting: set up dployments for static web apps
+    F- firebase use --add mymallfutim <<<======   this name exists in firebase site of my project
+    I- we must put all files into folder called "public"
+    K- make file called firebase.json and put this codes inside it 
+		{
+  		"public": "index.html",
+  		"hosting": {
+  		  "public": "public",
+   		 "ignore": [
+    		  "firebase.json",
+     		 "**/.*",
+     		 "**/node_modules/**"
+   		 ]
+  		}
+	   }
+
+    G- firebase deploy
+
+
+
+
+
+  
+
+
+
+
+
+
+

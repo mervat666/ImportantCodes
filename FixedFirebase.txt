@@ -1,0 +1,27 @@
+		👇👇FIXED ERROR HAPPNED WHEN WE NEEDE UP PROJECT ON FIREBASE👇👇👇
+
+					in GOOGLE
+
+
+
+we will find window write on it like this 👇👇👇
+=================================================================================
+Enable Multi-factor Authentication (MFA)
+Multi-factor authentication (MFA), also called 2-step verification (2SV), is now required for users. You must enable MFA to gain access to Firebase.
+turn on               learn more
+=================================================================================
+1- click on learn more 
+2- scroll down until we find==>> Enable MFA for Google Accounts
+3- inside 👆 we find by blue color statement Turn on 2-Step Verification. click  on it
+4- scroll down and click on blue BTN Writen on it Allow 2-Step Verification
+5- and then wite Password
+6- and write number phone to verification ===>> Send 
+7- and get the code from mobile  and put it 
+8- click next 
+9- click on blue BTN writed 2-step verification (2SV)
+10- حسابكِ محمي الآن من خلال ميزة "التحقّق بخطوتين" ====>>> نضغط  تم
+
+
+
+الشرح ده لما يكون فيه خطوات امان لجوجل و تقفل معاها الفاير بيز 
+
